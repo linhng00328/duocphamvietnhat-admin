@@ -1,0 +1,24 @@
+  .print-bill h1, p {
+    font-family: Lato;
+  }
+  .print-bill table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .print-bill td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  .print-bill tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  
+  @media print{
+      .hide-on-print{
+          display: none;
+      }
+  }

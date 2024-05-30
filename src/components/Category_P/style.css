@@ -1,0 +1,38 @@
+.file-input .file-preview .file-drop-zone .file-upload-indicator .fa.fa-plus-circle{
+    display: none !important;
+}
+.file-zoom-dialog .modal-header{
+    background-color: rgb(229, 111, 37) !important;
+ 
+}
+.file-zoom-dialog .kv-zoom-title{
+    color:white !important;
+}
+.file-zoom-dialog .modal-title {
+ 
+    display: none !important;
+}
+.file-zoom-dialog .kv-zoom-actions button {
+    color: white !important;
+    border-color: white !important;
+}
+
+.file-caption .file-caption-name{
+    pointer-events: none !important;
+}
+.card-body123 .resp-table-row:nth-child(even) {
+    background-color: white !important;
+}
+.card-body123 .resp-table-row:hover{
+    background-color: #f2f2f2 !important;
+}
+
+.group-banner-image .upload__item {
+    width: 290px!important;
+}
+
+.group-banner-image .upload__item .upload__item__content{
+    background-size: cover!important;
+    background-position: center center!important;
+    background-repeat: no-repeat!important;
+}

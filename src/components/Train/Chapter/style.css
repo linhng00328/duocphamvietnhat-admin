@@ -1,0 +1,87 @@
+.wrap-box-item{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    /* border-top: 1px solid #cac6c6; */
+    /* border-radius: 0.375rem; */
+    margin-bottom: 10px;
+}
+.container-lesson .container-item .wrap-box-item:nth-child(n+2){
+    border-top: 1px solid #cac6c6;
+
+}
+.box-content{
+    display : flex;
+    
+}
+.collaspe-lesson td{
+    border: 1px solid rgb(220, 210, 210)
+    
+}
+.wrap-box-item .content{
+    margin-left: 10px;
+}
+.wrap-box-item .content .title{
+   font-weight: 500;
+   font-size: 16px;
+}
+
+
+.action-box{
+    margin : auto 0;
+    margin-right: 5px;
+}
+.action-box button{
+    font-size: 20px;
+    color: rgb(192, 74, 74);
+}
+.action-table .remove{
+    font-size: 20px;
+    color: rgb(192, 74, 74);
+}
+.action-table .edit{
+    font-size: 20px;
+    color: #eded2d;
+}
+
+.question{
+    font-weight: 500;
+    margin-bottom: 7px;
+}
+
+
+.item-result-correct{
+    color: blue;
+    font-weight: 500;
+    font-style: italic;
+    margin-top: 5px;
+}
+.wrap-box-item .action {
+    display: flex;
+    margin-top: 5px;
+}
+
+.wrap-box-item .action .edit {
+    color: #eded2d;
+    margin-left: 6px;
+    font-size: 17px;
+}
+
+.wrap-box-item .action .play {
+    color: green;
+    font-size: 17px;
+
+}
+
+.wrap-box-item .action .remove {
+    margin-left: 6px;
+
+    color: rgb(192, 74, 74);
+    font-size: 17px;
+
+}
+
+
+.wrap-box-item .action .play-disable {
+    color: gray !important;
+}

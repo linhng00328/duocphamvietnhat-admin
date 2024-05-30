@@ -1,0 +1,40 @@
+.btn-day,.btn-day:hover,.btn-day:focus,.btn-day:active{
+    background-color: darkgray !important;
+    margin-right: 0.75rem !important;
+    margin-bottom: 0.75rem !important;
+    outline: none !important;
+    border: none !important;
+    outline:none !important;
+}
+.btn-day:focus{
+    outline: none !important;
+    border: none !important;
+}
+.btn-day.active{
+    background-color: #f6c23e !important;
+}
+.btn-collapse{
+    color:black !important;
+    font-weight: bold !important;
+    text-decoration: none !important;
+    outline: none !important;
+    border-radius: 0px !important;
+}
+.btn-collapse:hover,.btn-collapse:active,.btn-collapse:focus{
+    text-decoration: none !important;
+    outline: none !important;
+}
+/* [aria-expanded="true"].btn-accordion-collapse .fa:before {   
+  content: "\f077";
+}
+
+[data-toggle="collapse"].btn-accordion-collapse.collapsed .fa:before {
+  content: "\f";
+} */
+/* [data-toggle="collapse"].btn-accordion-collapse .fa:before {   
+    content: "\f077";
+  }
+  
+  [data-toggle="collapse"].btn-accordion-collapse.collapsed .fa:before {
+    content: "\f078";
+  } */

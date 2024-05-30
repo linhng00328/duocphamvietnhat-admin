@@ -1,0 +1,29 @@
+.wrap-box-item{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    border: 1px solid #cac6c6;
+    border-radius: 0.375rem;
+    margin-bottom: 10px;
+}
+.box-content{
+    display : flex;
+    
+}
+.wrap-box-item .content{
+    margin-left: 10px;
+}
+.wrap-box-item .content .title{
+   font-weight: 500;
+   font-size: 16px;
+}
+
+
+.action-box{
+    margin : auto 0;
+    margin-right: 10px;
+}
+.action-box button{
+    font-size: 20px;
+    color: rgb(192, 74, 74);
+}

@@ -1,0 +1,43 @@
+.bill-A6 {
+
+        display: block;
+        width: 100%;
+        height: 100%;
+        page-break-after: always;
+        overflow: visible;
+    
+}
+
+.bill-A6 * {
+    padding: 0;
+    margin: 0;
+}
+
+.bill-head-list {
+    display: flex;
+}
+
+.bill-price {
+    padding: 15px 12px 2px 12px;
+    display: flex;
+    width: 100%;
+    font-weight: bold;
+}
+
+.bill-price-non-bold {
+    font-weight: normal;
+}
+
+.bill-price-left {
+    float: right;
+    justify-content: end;
+    flex: 5;
+    text-align: end;
+}
+
+.bill-price-right {
+    float: right;
+    flex: 3;
+    text-align: end;
+
+}

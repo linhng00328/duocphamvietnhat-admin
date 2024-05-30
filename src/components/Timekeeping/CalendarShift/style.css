@@ -1,0 +1,127 @@
+/* .table-transpose table td{
+    min-width: 120px;
+} */
+.table-transpose table {
+  display: inline-block;
+  vertical-align: top;
+  max-width: 100%;
+
+  overflow-x: auto;
+
+  white-space: nowrap;
+
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.table-transpose tbody {
+  -webkit-overflow-scrolling: touch;
+
+  background: radial-gradient(
+        left,
+        ellipse,
+        rgba(0, 0, 0, 0.2) 0%,
+        rgba(0, 0, 0, 0) 75%
+      )
+      0 center,
+    radial-gradient(right, ellipse, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0) 75%)
+      100% center;
+  background-size: 10px 100%, 10px 100%;
+  background-attachment: scroll, scroll;
+  background-repeat: no-repeat;
+}
+
+.table-transpose tbody tr:first-child {
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 1) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  background-repeat: no-repeat;
+  background-size: 20px 100%;
+}
+
+.table-transpose tbody tr:last-child {
+  background-image: linear-gradient(
+    to left,
+    rgba(255, 255, 255, 1) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  background-repeat: no-repeat;
+  background-position: 100% 0;
+  background-size: 20px 100%;
+}
+
+.table-transpose th {
+  font-size: 11px;
+  text-align: left;
+  text-transform: uppercase;
+  background: #f2f0e6;
+}
+.table-transpose th,
+.table-transpose td {
+  padding: 6px 12px;
+  border: 1px solid #d9d7ce;
+}
+
+.table-transpose {
+  display: flex;
+  overflow: hidden;
+  background: none;
+  border-collapse: collapse;
+}
+.table-transpose thead {
+  display: flex;
+  flex-shrink: 0;
+  min-width: min-content;
+}
+
+.table-transpose tbody {
+  display: flex;
+  position: relative;
+  overflow-x: auto;
+  overflow-y: hidden;
+  justify-content: space-between;
+}
+
+.table-transpose tr {
+  display: flex;
+  flex-direction: column;
+  min-width: min-content;
+  flex-shrink: 0;
+  border:1px solid black !important;
+  flex:1;
+  border-left:0px !important;
+  border-right: 0px !important;
+}
+.table-transpose tr:first-child {
+flex:0;
+flex-basis: 250px;
+border-left:1px solid black !important;
+}
+.table-transpose tr:last-child{
+  border-right:1px solid black !important;
+}
+
+.table-transpose td,
+.table-transpose th {
+  display: block;
+}
+
+.table-transpose td {
+  background-image: none !important;
+
+  border-left: 0;
+}
+
+.table-transpose th:not(:last-child),
+.table-transpose td:not(:last-child) {
+  border-bottom: 0;
+}
+.table-transpose tbody {
+  flex: 1 !important;
+  width: 100% !important;
+}
+.table-transpose td:not(:first-child) {
+  min-width: 120px;
+  min-height: 120px;
+}

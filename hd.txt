@@ -1,0 +1,28 @@
+auto build
+
+git checkout son
+git pull
+git checkout dev
+git merge son
+git add .
+git commit -m "Merge huy"
+git push
+npm run build
+
+
+
+rm -rf ../ikitech_user_build/*
+mv ./build/* ../ikitech_user_build/
+cd ../ikitech_user_build 
+
+
+git add .
+git commit -m "New"
+git push -f
+cd ../ikitech_user_web
+
+cd /www/wwwroot/isempai.net
+git pull
+
+cd /www/wwwroot/myiki.vn
+git pull
